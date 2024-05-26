@@ -32,7 +32,7 @@ To get started, you can either compile the source code or use the pre-compiled e
 ## Prerequisites
 - GCC Compiler (if compiling from source)
 
-## Installation
+# Working
 
 As an illustration,
 
@@ -41,15 +41,24 @@ The password will be saved in the **File** once it has been generated. That is i
 
 Therefore, The file **PASSWORD** will contain the generated password "**agUTxImA61aXmep**". 
 
+## Installation
+
 **FOR WINDOWS** 
 
 
 ![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/8d509ad9-1d1a-467b-89d0-7d479f42d2d4)
 
+1. Download
+ - Download the ZIP file.
+   
+2. Unzip
+ - Unzip the file.
+
+   
+3. Run 
+ - Run it on your machine.
 
 
-Utilize any software you typically use to code, such as **CodeBlocks**, **Visual Studio Code**, **Dev C++**, etc.
-Run the code by copying and pasting it into your application.
 
 
 **FOR LINUX** 

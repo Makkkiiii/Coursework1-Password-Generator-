@@ -14,10 +14,10 @@ Use any programs in which you usually code (**Dev C++**, **Visual Studio Code**,
 Copy and paste the code into your application and run the code.
 
 **FOR LINUX**
-Make a file named **<filename>.c** using the **mousepad**, **vim**, **nano**, **Gedit**, etc, and save it.
+Make a file named **<<filename>>.c** using the **mousepad**, **vim**, **nano**, **Gedit**, etc, and save it.
 
 After that, you need to compile it.
-USE **gcc -o <filename> <filename>.c**
+USE **gcc -o <<filename>> <<filename>>.c**
 
 After this, you can run the program.
-Use **./<filename>.c** to run the program.
+Use **./<<filename>>.c** to run the program.

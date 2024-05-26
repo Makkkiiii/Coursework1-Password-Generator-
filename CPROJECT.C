@@ -1,3 +1,11 @@
+/*
+
+STUDENT NAME: DENISH MAHARJAN
+PROJECT ASSIGNED DATE : 23/05/2024
+PROECT SUBMISSION DATE : 23/06/2024
+PROJECT TITLE : PASSWORD GENERATOR
+
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -124,7 +132,9 @@ int main()
     srand(time(0)); // seed the random number generator
 
     int length;
-    printf("Enter the length of the password: ");
+    printf("\n");
+    printf("******************** Welcome to the Password Generator! ******************** \n\n");
+    printf("Enter the length you want your password to be: ");
     scanf("%d", &length);
 
     int useUppercase, useLowercase, useDigits, useSpecialChars;

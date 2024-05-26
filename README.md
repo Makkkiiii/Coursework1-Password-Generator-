@@ -48,9 +48,9 @@ Therefore, The file **PASSWORD** will contain the generated password "**agUTxImA
 
 ![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/8d509ad9-1d1a-467b-89d0-7d479f42d2d4)
 
-### - Download the zip file.
-### - Unzip the zip file.
-### - Run it on your machine.
+-> Download the zip file.
+-> Unzip the zip file.
+-> Run it on your machine.
 
 ## 2. FOR LINUX 
 

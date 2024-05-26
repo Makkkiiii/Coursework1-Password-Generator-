@@ -20,13 +20,14 @@ Therefore, The file **PASSWORD** will contain the generated password "**agUTxImA
 Utilize any software you typically use to code, such as **CodeBlocks**, **Visual Studio Code**, **Dev C++**, etc.
 Run the code by copying and pasting it into your application.
 
-Assume you created a **File** named "**password_generator.c**."
 
 **FOR LINUX** 
 
 
 ![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/87344c86-3469-437f-a53f-cae2531541f8)
 
+
+Assume you created a **File** named "**password_generator.c**."
 
 Use programs such as **Mousepad**, **Mim**, **Nano**, **Gedit**, etc. to create and save a file called **password_generator.c**.
 

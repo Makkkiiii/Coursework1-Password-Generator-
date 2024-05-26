@@ -66,12 +66,10 @@ Therefore, The file **PASSWORD** will contain the generated password "**agUTxImA
 ### 1. Clone the repository:
    ```
    git clone https://github.com/Makkkiiii/Password-Generator.git
-
    ```
 ### 2. Compile the source code: 
 ```
 gcc -o password_generator password_generator.c
-
 ```
 
 ### 3. Launching the program:
@@ -88,13 +86,23 @@ gcc -o password_generator password_generator.c
 
 _It is similar to Linux._
 
-You can use coding software or on the terminal. It's your choice 😊.
+You can use coding software, a terminal, or just clone it.
 
-If you are using an IDE then do the same we did for **WINDOWS**. If you are doing it in a terminal aka CLI, follow the steps mentioned below.
+Use the desired text editor.
 
-Use any text editor to create a file named **password_generator.c**. 
+### 1. Clone the repository:
+   ```
+   git clone https://github.com/Makkkiiii/Password-Generator.git
+   ```
+### 2. Compile the source code: 
+```
+gcc -o password_generator password_generator.c
+```
 
-Open Terminal, navigate to the directory containing **password_generator.c**, and compile it using **gcc -o password_generator password_generator.c**.
+### 3. Launching the program:
 
-Execute the compiled program with **./password_generator**.
+```
+./password_generator.c
+```
+
 

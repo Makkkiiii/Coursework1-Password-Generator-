@@ -3,7 +3,9 @@
 ## Overview
 
 Softwarica College of IT and E-Commerce
+
 Programming and Algorithm 1 (**C**) - Lecturer: Suman Shrestha
+
 Password Generator - 26th May (1st Semester)
 
 ## About

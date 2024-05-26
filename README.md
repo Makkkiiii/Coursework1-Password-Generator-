@@ -6,7 +6,7 @@ For this project, we created a password generator using only the **C** language.
 As an illustration,
 
 Suppose you created the password "**agUTxImA61aXmep**". You will be prompted by the program to name a "File" before it can be created.
-The password will be saved in the **File** once it has been generated. That is if the **File** was named "PASSWORD". That file will be created by the program and placed in the folder containing it.  
+The password will be saved in the **File** once it has been generated. That is if the **File** was named "PASSWORD". That file will be created by the program and placed in the folder where the program is. (Folder you saved your program in).  
 
 Therefore, **PASSWORD** will contain the generated password "agUTxImA61aXmep". 
 

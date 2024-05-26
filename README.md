@@ -1,4 +1,10 @@
 # Password-Generator
+
+## Overview
+
+Password Generator using C
+
+## About
 This is the first self-project I've made where I created a **Password Generator** using references.
 
 For this project, I created a password generator using only "**C**". It bears similarities to other password generators available online. It is equivalent to **Generating a specific number of passwords with upper and lower case, special characters, and numbers**. Additionally, this program creates a file for you in which the _Generated Passwords_ are kept. 
@@ -11,6 +17,7 @@ For this project, I created a password generator using only "**C**". It bears si
 - n number of passwords can be generated.
 - The user can generate more passwords if he/she does not like the password given before.
 
+## Working
 As an illustration,
 
 Suppose the program created the password "**agUTxImA61aXmep**". You will be prompted by the program to name a "File" before it can be created.

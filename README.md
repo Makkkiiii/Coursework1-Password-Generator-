@@ -41,18 +41,18 @@ The password will be saved in the **File** once it has been generated. That is i
 
 Therefore, The file **PASSWORD** will contain the generated password "**agUTxImA61aXmep**". 
 
-## Installation
+# Installations
 
-**1. FOR WINDOWS** 
+## 1. FOR WINDOWS
 
 
 ![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/8d509ad9-1d1a-467b-89d0-7d479f42d2d4)
 
-### Download the zip file.
-### Unzip the zip file.
-### Run it on your machine.
+### - Download the zip file.
+### - Unzip the zip file.
+### - Run it on your machine.
 
-**2. FOR LINUX** 
+## 2. FOR LINUX 
 
 
 ![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/87344c86-3469-437f-a53f-cae2531541f8)
@@ -68,7 +68,7 @@ USE **gcc -o password_generator password_generator.c**
 You can then launch the program after this.
 Run the program with **./password_generator.c**.
 
-**FOR MAC**
+## 3. FOR MAC
 
 
 ![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/1c970412-db98-4f30-a1bf-b87ae00f8ce3)

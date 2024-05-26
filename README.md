@@ -22,7 +22,8 @@ For this project, I created a password generator using only "**C**". It bears si
 - Includes upper and lower characters.
 - Includes Special Characters.
 - Saves password to a text file.
-- n number of passwords can be generated.
+- N number of passwords can be generated.
+- Generated Passwords labeled as "Weak", "Medium", "Strong"
 - The user can generate more passwords if he/she does not like the password given before.
 
 ## Getting Started

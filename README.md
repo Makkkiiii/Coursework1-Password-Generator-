@@ -37,3 +37,14 @@ USE **gcc -o password_generator password_generator.c**
 You can then launch the program after this.
 Run the program with **./password_generator.c**.
 
+**FOR MAC**
+
+
+![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/1c970412-db98-4f30-a1bf-b87ae00f8ce3)
+
+
+_It is similar to Linux._
+Use any text editor to create a file named password_generator.c.
+Open Terminal, navigate to the directory containing **password_generator.c**, and compile it using **gcc -o password_generator password_generator.c**.
+Execute the compiled program with **./password_generator**.
+

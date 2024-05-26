@@ -13,6 +13,10 @@ This is the self-project I've made where I created a **Password Generator** usin
 
 For this project, I created a password generator using only "**C**". It bears similarities to other password generators available online. It is equivalent to **Generating a specific number of passwords with upper and lower case, special characters, and numbers**. Additionally, this program creates a file for you in which the _Generated Passwords_ are kept. 
 
+
+![Snap](https://github.com/Makkkiiii/Password-Generator/assets/148240694/c68c72ab-b99a-44bb-aca1-142159601f43)
+
+
 ## Features
 - Can be of any length.
 - Includes upper and lower characters.

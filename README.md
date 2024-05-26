@@ -11,7 +11,7 @@ Password Generator - 26th May (1st Semester)
 ## About
 This is the first project where I created a **Password Generator** using **C**.
 
-For this project, I created a password generator using only "**C**". It bears similarities to other password generators available online. It is equivalent to **Generating a specific number of passwords with upper and lower case, special characters, and numbers**. Additionally, this program creates a file for you in which the _Generated Passwords_ are kept. 
+It bears similarities to other password generators available online. It can be used for **Generating a specific number of passwords with upper and lower case, special characters, and numbers**. Additionally, this program creates a file for you in which the _Generated Passwords_ are kept. 
 
 
 ![Snap](https://github.com/Makkkiiii/Password-Generator/assets/148240694/c68c72ab-b99a-44bb-aca1-142159601f43)

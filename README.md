@@ -57,15 +57,15 @@ Therefore, The file **PASSWORD** will contain the generated password "**agUTxImA
 
 ![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/87344c86-3469-437f-a53f-cae2531541f8)
 
-### Use **TEST Editor** like:
+### Use **Text Editor** like:
 - Mousepad
 - Vim
 - Nano
 - Gedit
 
 1. Clone the repository:
-   ''' git clone https://github.com/Makkkiiii/Password-Generator.git
-   '''
+   
+   git clone https://github.com/Makkkiiii/Password-Generator.git
    
 After that, you need to compile it.
 USE **gcc -o password_generator password_generator.c**

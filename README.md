@@ -45,7 +45,7 @@ Run the program with **./password_generator.c**.
 
 _It is similar to Linux._
 
-You can use coding software or on the terminal. It's your choice 😊😊.
+You can use coding software or on the terminal. It's your choice 😊.
 
 If you are using an IDE then do the same we did for **WINDOWS**. If you are doing it in a terminal aka CLI, follow the steps mentioned below.
 

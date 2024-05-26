@@ -43,25 +43,16 @@ Therefore, The file **PASSWORD** will contain the generated password "**agUTxImA
 
 ## Installation
 
-**FOR WINDOWS** 
+**1. FOR WINDOWS** 
 
 
 ![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/8d509ad9-1d1a-467b-89d0-7d479f42d2d4)
 
-1. Download
- - Download the ZIP file.
-   
-2. Unzip
- - Unzip the file.
+### Download the zip file.
+### Unzip the zip file.
+### Run it on your machine.
 
-   
-3. Run 
- - Run it on your machine.
-
-
-
-
-**FOR LINUX** 
+**2. FOR LINUX** 
 
 
 ![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/87344c86-3469-437f-a53f-cae2531541f8)

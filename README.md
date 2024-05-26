@@ -63,15 +63,22 @@ Therefore, The file **PASSWORD** will contain the generated password "**agUTxImA
 - Nano
 - Gedit
 
-1. Clone the repository:
-   
+### 1. Clone the repository:
+   ```
    git clone https://github.com/Makkkiiii/Password-Generator.git
-   
-After that, you need to compile it.
-USE **gcc -o password_generator password_generator.c**
 
-You can then launch the program after this.
-Run the program with **./password_generator.c**.
+   ```
+### 2. Compile the source code: 
+```
+gcc -o password_generator password_generator.c
+
+```
+
+### 3. Launching the program:
+
+```
+./password_generator.c
+```
 
 ## 3. FOR MAC
 

@@ -104,5 +104,11 @@ gcc -o password_generator password_generator.c
 ```
 ./password_generator.c
 ```
+## Steps
 
+Follow the given instructions
+
+## Tools Used
+
+This program was written in C using the Visual Studio Code IDE.
 

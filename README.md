@@ -13,7 +13,8 @@ Therefore, **PASSWORD** will contain the generated password "agUTxImA61aXmep".
 **FOR WINDOWS** 
 
 
-![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/3bc78193-b1db-4997-b8b1-a77b74cc9c1c)
+![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/8d509ad9-1d1a-467b-89d0-7d479f42d2d4)
+
 
 
 Utilize any software you typically use to code, such as **CodeBlocks**, **Visual Studio Code**, **Dev C++**, etc.

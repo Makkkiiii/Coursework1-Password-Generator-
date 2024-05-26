@@ -21,7 +21,7 @@ For this project, I created a password generator using only "**C**". It bears si
 - n number of passwords can be generated.
 - The user can generate more passwords if he/she does not like the password given before.
 
-## Working
+## Getting Started
 As an illustration,
 
 Suppose the program created the password "**agUTxImA61aXmep**". You will be prompted by the program to name a "File" before it can be created.

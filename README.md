@@ -13,11 +13,13 @@ So, The generated password "agUTxImA61aXmep" will stored in **PASSWORD**.
 Use any programs in which you usually code (**Dev C++**, **Visual Studio Code**, **CodeBlocks**, etc)
 Copy and paste the code into your application and run the code.
 
+Let's say you made a **File** that is called "**password_generator.c**
+
 **FOR LINUX**
-Make a file named **<<filename>>.c** using the **mousepad**, **vim**, **nano**, **Gedit**, etc, and save it.
+Make a file named **password_generator.c** using the **mousepad**, **vim**, **nano**, **Gedit**, etc, and save it.
 
 After that, you need to compile it.
-USE **gcc -o <<filename>> <<filename>>.c**
+USE **gcc -o password_generator password_generator.c**
 
 After this, you can run the program.
-Use **./<<filename>>.c** to run the program.
+Use **./password_generator.c** to run the program.

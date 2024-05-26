@@ -47,10 +47,7 @@ _It is similar to Linux._
 
 You can use coding software or on the terminal. It's your choice 😊😊.
 
-If you are using an IDE then do the same we did for **WINDOWS**.
-
-If you are doing it in a terminal aka CLI, follow the steps mentioned below.
-
+If you are using an IDE then do the same we did for **WINDOWS**. If you are doing it in a terminal aka CLI, follow the steps mentioned below.
 
 Use any text editor to create a file named **password_generator.c**. 
 

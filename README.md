@@ -26,13 +26,13 @@ It bears similarities to other password generators available online. It can be u
 - Generated Passwords labeled as "Weak", "Medium", "Strong"
 - The user can generate more passwords if he/she does not like the password given before.
 
-# Getting Started
+## Getting Started
 To get started, you can either compile the source code or use the pre-compiled executable file.
 
 ## Prerequisites
 - GCC Compiler (if compiling from source)
 
-# Working
+## Working
 
 As an illustration,
 

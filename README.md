@@ -11,6 +11,8 @@ The password will be saved in the **File** once it has been generated. That is i
 Therefore, **PASSWORD** will contain the generated password "agUTxImA61aXmep". 
 
 **FOR WINDOWS** 
+
+
 ![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/3bc78193-b1db-4997-b8b1-a77b74cc9c1c)
 
 
@@ -20,6 +22,8 @@ Run the code by copying and pasting it into your application.
 Assume you created a **File** named "**password_generator.c**."
 
 **FOR LINUX** 
+
+
 ![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/87344c86-3469-437f-a53f-cae2531541f8)
 
 

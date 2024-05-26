@@ -36,10 +36,8 @@ To get started, you can either compile the source code or use the pre-compiled e
 
 As an illustration,
 
-Suppose the program created the password "**agUTxImA61aXmep**". You will be prompted by the program to name a "File" before it can be created.
-The password will be saved in the **File** once it has been generated. That is if the **File** was named "PASSWORD". That file will be created by the program and placed in the folder where the program is. (Folder you saved your program in).  
-
-Therefore, The file **PASSWORD** will contain the generated password "**agUTxImA61aXmep**". 
+Suppose the program created the password "**agUTxImA61aXmep**". You will be prompted by the program to name a **File** to create it.
+The password will be saved in the **File** once it has been generated. If your file name is **Password**, The file **PASSWORD** will contain the generated password.
 
 # Installations
 
@@ -84,26 +82,14 @@ gcc -o password_generator password_generator.c
 ![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/1c970412-db98-4f30-a1bf-b87ae00f8ce3)
 
 
-_It is similar to Linux._
+_It is similar to Linux and Windows._
 
 You can use coding software, a terminal, or just clone it.
 
 Use the desired text editor.
 
-### 1. Clone the repository:
-   ```
-   git clone https://github.com/Makkkiiii/Password-Generator.git
-   ```
-### 2. Compile the source code: 
-```
-gcc -o password_generator password_generator.c
-```
 
-### 3. Launching the program:
 
-```
-./password_generator.c
-```
 ## Steps
 
 Follow the given instructions inside the program

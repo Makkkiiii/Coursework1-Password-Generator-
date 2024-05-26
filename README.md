@@ -106,7 +106,7 @@ gcc -o password_generator password_generator.c
 ```
 ## Steps
 
-Follow the given instructions
+Follow the given instructions inside the program
 
 ## Tools Used
 

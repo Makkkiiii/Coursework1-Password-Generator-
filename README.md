@@ -21,14 +21,9 @@ Assume you created a **File** named "**password_generator.c**."
 
 Use programs such as **mousepad**, **vim**, **nano**, **Gedit**, etc. to create and save a file called **password_generator.c**.
 
-You then have to put it together.
-**password_generator password_generator.c** should be used.
+After that, you need to compile it.
+USE **gcc -o password_generator password_generator.c**
 
 You can then launch the program after this.
 Run the program with **./password_generator.c**.
 
-After that, you need to compile it.
-USE **gcc -o password_generator password_generator.c**
-
-After this, you can run the program.
-Use **./password_generator.c** to run the program.

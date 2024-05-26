@@ -26,7 +26,14 @@ For this project, I created a password generator using only "**C**". It bears si
 - Generated Passwords labeled as "Weak", "Medium", "Strong"
 - The user can generate more passwords if he/she does not like the password given before.
 
-## Getting Started
+# Getting Started
+To get started, you can either compile the source code or use the pre-compiled executable file.
+
+## Prerequisites
+- GCC Compiler (if compiling from source)
+
+## Installation
+
 As an illustration,
 
 Suppose the program created the password "**agUTxImA61aXmep**". You will be prompted by the program to name a "File" before it can be created.

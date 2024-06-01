@@ -2,10 +2,11 @@
 
 STUDENT NAME: DENISH MAHARJAN
 PROJECT ASSIGNED DATE : 23/05/2024
-PROECT SUBMISSION DATE : 23/06/2024
+PROJECT SUBMISSION DATE : 23/06/2024
 PROJECT TITLE : PASSWORD GENERATOR
 
 */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -74,21 +75,28 @@ void encrypt(char *str, int key)
 }
 
 // Function to generate a random password
-void generatePassword(int length, int useUppercase, int useLowercase, int useDigits, int useSpecialChars, FILE *file)
+char *generatePassword(int length, int useUppercase, int useLowercase, int useDigits, int useSpecialChars)
 {
-    char uppercaseLetters[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    char lowercaseLetters[] = "abcdefghijklmnopqrstuvwxyz";
-    char digits[] = "0123456789";
-    char specialChars[] = "!@#$%^&*()";
+    const char uppercase[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    const char lowercase[] = "abcdefghijklmnopqrstuvwxyz";
+    const char digits[] = "0123456789";
+    const char specialChars[] = "!@#$%^&*()";
+
+    char *password = (char *)malloc((length + 1) * sizeof(char)); // +1 for the null terminator
+    if (password == NULL)
+    {
+        printf("Memory allocation failed\n");
+        return NULL;
+    }
 
     char charset[100] = "";
     if (useUppercase)
     {
-        strcat(charset, uppercaseLetters);
+        strcat(charset, uppercase);
     }
     if (useLowercase)
     {
-        strcat(charset, lowercaseLetters);
+        strcat(charset, lowercase);
     }
     if (useDigits)
     {
@@ -103,10 +111,10 @@ void generatePassword(int length, int useUppercase, int useLowercase, int useDig
     if (charsetSize == 0)
     {
         printf("Error: No character types selected!\n");
-        return;
+        free(password);
+        return NULL;
     }
 
-    char password[length + 1];
     for (int i = 0; i < length; i++)
     {
         password[i] = charset[rand() % charsetSize];
@@ -115,15 +123,14 @@ void generatePassword(int length, int useUppercase, int useLowercase, int useDig
 
     shuffle(password, length);
 
-    printf("Generated password: %s\n", password);
-    analyzePasswordStrength(password);
+    return password;
+}
 
-    // Encrypt the password
-    encrypt(password, 3);
-
-    if (file != NULL)
+void clearInputBuffer()
+{
+    int c;
+    while ((c = getchar()) != '\n' && c != EOF)
     {
-        fprintf(file, "%s\n", password);
     }
 }
 
@@ -152,8 +159,15 @@ int main()
     scanf("%d", &numPasswords);
 
     char filename[100];
-    printf("Enter the name of the file to save the passwords (leave blank to not save): ");
-    scanf(" %99[^\n]", filename); // The space before % is necessary to skip any leftover newline character
+    printf("Enter the file name to save passwords:");
+    printf("!!! LEAVE BLANK IF YOU DO NOT WANT TO SAVE!!!\n");
+
+    clearInputBuffer();
+    fgets(filename, sizeof(filename), stdin);
+    if ((strlen(filename) > 0) && (filename[strlen(filename) - 1] == '\n'))
+    {
+        filename[strlen(filename) - 1] = '\0';
+    }
 
     FILE *file = NULL;
     if (strlen(filename) > 0)
@@ -168,8 +182,23 @@ int main()
 
     for (int i = 0; i < numPasswords; i++)
     {
-        printf("Generated password %d: ", i + 1);
-        generatePassword(length, useUppercase, useLowercase, useDigits, useSpecialChars, file);
+        char *password = generatePassword(length, useUppercase, useLowercase, useDigits, useSpecialChars);
+        if (password != NULL)
+        {
+            printf("Generated password: %s\n", password);
+            analyzePasswordStrength(password);
+
+            encrypt(password, 3);
+
+            printf("Encrypted password: %s\n", password);
+
+            if (file != NULL)
+            {
+                fprintf(file, "%s\n", password);
+            }
+
+            free(password);
+        }
     }
 
     if (file != NULL)

@@ -97,7 +97,8 @@ Follow the given instructions inside the program
 ## Tools Used
 
 
-![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/cb19d6e4-0c03-4c73-839a-b5f126ceaa7c)                                          ![Papirus-Team-Papirus-Apps-Nvim 72](https://github.com/Makkkiiii/Password-Generator/assets/148240694/c5a776d0-e463-420b-916a-a9599f9f0e36)
+![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/cb19d6e4-0c03-4c73-839a-b5f126ceaa7c)                                          ![Papirus-Team-Papirus-Apps-Nvim 96](https://github.com/Makkkiiii/Password-Generator/assets/148240694/3f6a6c1a-5a5a-4ffd-a0d6-839d9fa9df3a)
+
 
 
 This program was written in C using Visual Studio Code and Neovim.

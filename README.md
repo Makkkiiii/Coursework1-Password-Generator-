@@ -97,7 +97,8 @@ Follow the given instructions inside the program
 ## Tools Used
 
 
-![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/cb19d6e4-0c03-4c73-839a-b5f126ceaa7c)                                            ![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/c54170c3-42ba-4e2a-bfee-de24be080f07)
+![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/cb19d6e4-0c03-4c73-839a-b5f126ceaa7c)                                            ![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/0f81fb4a-6605-442e-8097-40487224b0cd)
+
 
 
 

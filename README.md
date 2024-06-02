@@ -97,10 +97,11 @@ Follow the given instructions inside the program
 ## Tools Used
 
 
-![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/cb19d6e4-0c03-4c73-839a-b5f126ceaa7c)
+![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/cb19d6e4-0c03-4c73-839a-b5f126ceaa7c)                                            ![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/c54170c3-42ba-4e2a-bfee-de24be080f07)
 
 
 
 
-This program was written in C using the Visual Studio Code IDE.
+
+This program was written in C using Visual Studio Code and Neovim.
 

@@ -97,9 +97,7 @@ Follow the given instructions inside the program
 ## Tools Used
 
 
-![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/cb19d6e4-0c03-4c73-839a-b5f126ceaa7c)                                            ![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/c066815f-cd00-451b-a642-250ededfc6a1)
-
-
+![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/cb19d6e4-0c03-4c73-839a-b5f126ceaa7c)                                          ![Papirus-Team-Papirus-Apps-Nvim 512](https://github.com/Makkkiiii/Password-Generator/assets/148240694/862e07cf-1e89-43a7-b23f-ec2936571520)
 
 
 

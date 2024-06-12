@@ -12,7 +12,8 @@ Password Generator - 26th May (1st Semester)
 This is the first project where I created a **Password Generator** using **C**.
 
 
-![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/a66265d5-ff3c-4eff-9a1f-ff0cfdadf001)
+![image](https://github.com/Makkkiiii/Password-Generator/assets/148240694/154f0132-7419-4138-8296-742d6d9c211c)
+
 
 
 
